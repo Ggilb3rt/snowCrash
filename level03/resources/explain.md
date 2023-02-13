@@ -20,8 +20,9 @@ pass : kooda2puivaav1idi4f57q8iq
 
 ## Solution
 - cf script.sh
+
 - flag empty because we execute getflag as flag03
-level04 : qi0maab88jeaj46qoumi7maus
+- level04 : qi0maab88jeaj46qoumi7maus
 
 ## Resolve problem
 - never trust users, always sanitize your data

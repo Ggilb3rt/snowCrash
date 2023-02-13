@@ -10,10 +10,13 @@ pass : x24ti5gi3x0ol2eh4esiuxias
 
 - Put /etc/passwd of flag01 to file
 ```bash
-    grep flag01 /etc/passwd > cryptPass
+    grep flag01 /etc/passwd > /tmp/cryptPass
     #flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
 ```
 - Put it to my local machine with scp
+```bash
+    scp -P 4242 level01@10.0.2.4:/tmp/cryptPass ./level01
+```
 - Use [John the ripper][df2] (can by combine with wordlist /usr/share/wordlist) [source][df3]
 ```bash
     john cryptPass
@@ -25,8 +28,8 @@ pass : x24ti5gi3x0ol2eh4esiuxias
 ```
 
 ## Solution
-flag01 : abcdefg
-level02 : f2av5il02puano7naaf6adaaf
+- flag01 : abcdefg
+- level02 : f2av5il02puano7naaf6adaaf
 
 ## Resolve problem
 - don't put any password on /etc/passwd file, let the system put it to /etc/shadow

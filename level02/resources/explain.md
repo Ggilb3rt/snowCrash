@@ -11,16 +11,15 @@ pass : kooda2puivaav1idi4f57q8iq
     - following packets I find : 'ft_wandr   NDRel L0L' ==> seems to easy, doesn't works
     - right click on first packet -> Follow -> TCP stream can help. Show data has Hex dump
     - some char space have 00 (\0) as Hex, others have 7f (DEL) or 0d (\r), let's go ```man ascii```
-
+        - ft_wandr then 3 DEL
+        - ft_waNDRel then 1 DEL
+        - ft_waNDReL0L
 
 ## Solution
-ft_wandr then 3 DEL
-ft_waNDRel then 1 DEL
-==> flag02 : ft_waNDReL0L
-level03 : kooda2puivaav1idi4f57q8iq
+- flag02 : ft_waNDReL0L
+- level03 : kooda2puivaav1idi4f57q8iq
 
 ## Resolve problem
-- just don't be stupid
 - use encryption on network
 
 [df1]: https://fr.wikipedia.org/wiki/Pcap

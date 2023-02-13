@@ -9,8 +9,8 @@
 Test with cesar decode
 
 ## Solution
-flag00 = nottoohardhere
-level01 = x24ti5gi3x0ol2eh4esiuxias
+- flag00 = nottoohardhere
+- level01 = x24ti5gi3x0ol2eh4esiuxias
 
 ## Resolve problem
 Don't put your passoword in a file with readable access
