@@ -16,7 +16,7 @@ The binary take a file as arg and print 1024 first char. If the file name contai
 
 ## Solution
 ```bash
-ln -s ./token /tmp/pouet
+ln -s ~/token /tmp/pouet
 ./level08 /tmp/pouet
 #quif5eloekouj29ke0vouxean ==> be carefull it's the pass of flag08 not level09
 ```

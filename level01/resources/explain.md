@@ -23,7 +23,7 @@ pass : x24ti5gi3x0ol2eh4esiuxias
     #Using default input encoding: UTF-8
     #Loaded 1 password hash (descrypt, traditional crypt(3) [DES 128/128 AVX])
     #No password hashes left to crack (see FAQ)
-    john --show
+    john --show cryptPass
     #flag01:abcdefg:3001:3001::/home/flag/flag01:/bin/bash
 ```
 

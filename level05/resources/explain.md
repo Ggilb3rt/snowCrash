@@ -3,7 +3,7 @@ pass : ne2searoevaevoem4ov4ar8ap
 
 
 ### Description
-- ```(find / -user level05 -type f 2>/dev/null) | grep -v proc``` ==> only file : '/usr/sbin/openarenaserver'
+- ```(find / -user flag05 -type f 2>/dev/null) | grep -v proc``` ==> only file : '/usr/sbin/openarenaserver'
 - when we connect we have a message "You have a new mail."
   - on linux mails are in /var/mail/user
   - other way to find the mail ```(find / -type f -iname level* 2>/dev/null) | grep -v rof``` help to find `var/mail/level05`
@@ -24,7 +24,7 @@ pass : ne2searoevaevoem4ov4ar8ap
 ```bash
 echo "getflag > /tmp/test" > /opt/openarenaserver/test
 # wait for cron job execution (2 minutes max)
-cat /tmp/xxx
+cat /tmp/test
 ```
 
 - no flag
